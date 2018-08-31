@@ -38,6 +38,12 @@ function destructivelyAddElementToBeginningOfArray(chocolateBars, candyString) {
         return chocolateBars;
       }
       
+      function removeElementFromEndOfArray (chocolateBars) {
+        chocolateBars.pop();
+        return chocolateBars;
+      }
+    
+      
       
     
       
